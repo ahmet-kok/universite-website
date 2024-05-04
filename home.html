@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header
+      class="w-100 carousel-inner"
+      style="position: relative; height: 20vw"
+    >
+      <img
+        class="header-image"
+        src="https://yerleskedeyasam.eskisehir.edu.tr/Uploads/yerleskedeyasam/Slider/dsc_1951-min-min-(1).jpg"
+        alt="Cinque Terre"
+      />
+      <img
+        class="center image-fluid w-50"
+        src="https://www.eskisehir.edu.tr/images/estu_logo_vektorel.svg"
+      />
+      <button
+        class="navbar-toggler navbar-light d-lg-none position-absolute"
+        style="top: 6vw; right: 6%"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </header>
+
+    <div class="row p-lg-5 px-3">
+      <div class="col-lg-3">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid p-0">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav nav flex-lg-column fs-4">
+                <li class="nav-item">
+                  <a
+                    href="home.html"
+                    class="nav-link active-page text-dark"
+                    aria-current="page"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="university.html" class="nav-link">UNIVERSITY</a>
+                </li>
+                <li class="nav-item">
+                  <a href="academics.html" class="nav-link">ACADEMICS</a>
+                </li>
+                <li class="nav-item position-relative" id="students">
+                  <a class="nav-link d-inline-block pe-4" href="students.html"
+                    >STUDENTS</a
+                  >
+                  <ul
+                    class="fs-5 bg-white position-absolute text-nowrap ps-1 pe-4"
+                  >
+                    <li class="d-none">
+                      <a href="login.html" class="nav-link z-3"
+                        >STUDENT LOGIN</a
+                      >
+                    </li>
+                    <li class="d-none">
+                      <a href="documents.html" class="nav-link z-3"
+                        >DOCUMENTS</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="campus-life.html" class="nav-link">CAMPUS LIFE</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-lg-9 px-3" style="height: fit-content">
+        <div class="mt-4 mt-lg-0">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel carousel-fade h-100"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner h-80">
+              <div class="carousel-item active h-100 ratio ratio-16x9">
+                <img
+                  src="https://yerleskedeyasam.eskisehir.edu.tr/Uploads/yerleskedeyasam/Slider/dsc_1951-min-min-(1).jpg"
+                  class="rounded zoom"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item h-100 ratio ratio-16x9">
+                <img
+                  src="https://www.eskisehir.edu.tr/Uploads/www/Icerik/Buyuk/f5c63592-5961-49b7-9483-2c39bffacbdf-5b6c4a3db248c.jpg"
+                  class="rounded zoom"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item h-100 ratio ratio-16x9">
+                <img
+                  src="https://www.eskisehir.edu.tr/Uploads/www/Icerik/Buyuk/345215ef-e900-4ee2-9230-9b0a3875dd16-5b6c4a13620a0.jpg"
+                  class="rounded zoom"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h2 class="mb-3 mt-5">Announcements</h2>
+          <ul class="p-0">
+            <li class="card mb-3 w-100 overflow-hidden" style="height: 140px">
+              <div class="row g-0 h-100">
+                <div
+                  class="h-100 d-none d-sm-block carousel-inner"
+                  style="width: 180px"
+                >
+                  <img
+                    src="https://yerleskedeyasam.eskisehir.edu.tr/Uploads/yerleskedeyasam/Slider/dsc_1951-min-min-(1).jpg"
+                    class="w-100 h-100 rounded-start zoom"
+                    style="object-fit: cover"
+                    alt="Enrollment Update"
+                  />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">Enrollment Deadline</h5>
+                    <p class="card-text">
+                      Reminder: The deadline for course enrollment for the
+                      upcoming semester is September 15. Ensure your courses are
+                      registered.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="card mb-3 w-100 overflow-hidden" style="height: 140px">
+              <div class="row g-0 h-100">
+                <div
+                  class="h-100 d-none d-sm-block carousel-inner"
+                  style="width: 180px"
+                >
+                  <img
+                    src="https://www.eskisehir.edu.tr/Uploads/www/Icerik/Buyuk/917208e0-030f-409d-8d34-cf27c6c7cbd2-5b6c4a073fd6d.jpg"
+                    class="w-100 h-100 rounded-start zoom"
+                    style="object-fit: cover"
+                    alt="Guest Lecture"
+                  />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">Guest Lecture Series</h5>
+                    <p class="card-text">
+                      Join us for a lecture on "The Future of Renewable Energy"
+                      by Dr. Emily Rosen on October 5, in the main auditorium.
+                      All are welcome.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="card mb-3 w-100 overflow-hidden" style="height: 140px">
+              <div class="row g-0 h-100">
+                <div
+                  class="h-100 d-none d-sm-block carousel-inner"
+                  style="width: 180px"
+                >
+                  <img
+                    src="https://www.eskisehir.edu.tr/Uploads/www/Icerik/Buyuk/32308d85-b6af-4182-b552-f421544f83e8-5b6c49fc4dabf.jpg"
+                    class="w-100 h-100 rounded-start zoom"
+                    style="object-fit: cover"
+                    alt="Internship Fair"
+                  />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">Internship Opportunities</h5>
+                    <p class="card-text">
+                      Our annual Internship Fair will be held on November 20.
+                      Prepare your resumes and meet potential employers in your
+                      field.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="card mb-3 w-100 overflow-hidden" style="height: 140px">
+              <div class="row g-0 h-100">
+                <div
+                  class="h-100 d-none d-sm-block carousel-inner"
+                  style="width: 180px"
+                >
+                  <img
+                    src="https://www.eskisehir.edu.tr/Uploads/www/Icerik/Buyuk/036c9682-4270-47be-bd83-8943e7c73aa8-5c136385abb91.jpg"
+                    class="w-100 h-100 rounded-start zoom"
+                    style="object-fit: cover"
+                    alt="Health and Wellness"
+                  />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">Health and Wellness Week</h5>
+                    <p class="card-text">
+                      Health and Wellness Week starts on September 25.
+                      Participate in workshops, free health screenings, and
+                      fitness challenges throughout the week.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="home.html" class="nav-link px-2 text-muted">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="university.html" class="nav-link px-2 text-muted"
+            >UNIVERSITY</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="academics.html" class="nav-link px-2 text-muted"
+            >ACADEMICS</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="students.html" class="nav-link px-2 text-muted">STUDENTS</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link px-2 text-muted"
+            >STUDENT LOGIN</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="documents.html" class="nav-link px-2 text-muted"
+            >DOCUMENTS</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="campus-life.html" class="nav-link px-2 text-muted"
+            >CAMPUS LIFE</a
+          >
+        </li>
+      </ul>
+      <p class="text-center text-muted">
+        © 2024 Eskisehir Technical University
+      </p>
+    </footer>
+  </body>
+</html>
